@@ -273,6 +273,7 @@ header h3 {
     padding:30px;
     flex-direction: column;
     border-top:2px solid #f0f1f5;
+    margin-bottom:50px;
 }
 
 #itens {
