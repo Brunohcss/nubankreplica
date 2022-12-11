@@ -55,6 +55,7 @@ header h3 {
     height: auto;
     gap:10px;
     margin:0px 10px;
+    padding-left:20px;
 }
 
 .ds {
@@ -70,11 +71,11 @@ header h3 {
     height: auto;
 }
 
-.area i {
-    font-size:18px;
+.area img {
+    width:65px;
+    background-color: #f0f1f5;
+    padding:20px;
     border-radius:50px;
-    background-color:#f0f1f5;
-    padding:25px;
 }
 
 .area h5 {
@@ -97,16 +98,26 @@ header h3 {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-
 }
 
 .img {
     background-color:#9904fe;
-    font-size:28px;
     color:#fff;
     border-radius:50px;
-    padding:13px;
-    height:55px;
+    padding:10px;
+    width:45px;
+}
+
+#notifi {
+    width:13px;
+    height:13px;
+    background-color: #ffffff;
+    border-radius:50px;
+    display: flex;
+    margin-left:32px;
+    margin-top:-32px;
+    position:absolute;
+    border: 2px solid #830ad1;
 }
 
 #container {
@@ -115,6 +126,10 @@ header h3 {
     color:#fff;
     gap:30px;
     display: flex;
+}
+
+#container img {
+    width:23px;
 }
 
 #cartao {
@@ -136,6 +151,10 @@ header h3 {
     margin-top:5px;
     border-radius:10px;
     font-size:20px;
+}
+
+#card img {
+    width:25px;
 }
 
 #avisos {
@@ -222,6 +241,10 @@ header h3 {
     display: flex;
     gap:10px;
     margin-top:10px;
+}
+
+#divac img {
+    width:20px;
 }
 
 #emprestimo {
@@ -311,9 +334,12 @@ footer {
     justify-content: space-around;
     font-size:20px;
     padding:15px 0px;
-    color:rgba(78, 78, 78, 0.747);
+    background-color: #ffffff63;
+    position:fixed;
+    bottom:0;
+    backdrop-filter: blur(10px);
 }
 
-.ative {
-    color: #830ad1;
+footer img {
+    width:25px;
 }
